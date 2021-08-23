@@ -4,6 +4,8 @@
 
 > This project was made within "Pinsoft iOS Assignment".
 
+⚠️ To access the API, get an API key **[here](http://www.omdbapi.com)** and replace it with "API_KEY" in the project.
+
 ## Architecture
 
 MVVM architecture was used in this project.
