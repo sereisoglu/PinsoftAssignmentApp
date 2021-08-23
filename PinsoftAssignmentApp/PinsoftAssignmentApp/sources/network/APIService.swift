@@ -13,7 +13,7 @@ final class APIService {
     static let shared = APIService()
     
     let BASE_URL = "http://www.omdbapi.com"
-    let API_KEY = "API_KEY"
+    let API_KEY = "c11a3f3a"
     let API_PAGE_LIMIT = 10
     
     var isReachable: Bool {
