@@ -31,7 +31,7 @@ final class MovieDetailController: UICollectionViewController, UICollectionViewD
         layout.sectionInset = .zero
         layout.minimumInteritemSpacing = .zero
         
-        super.init(collectionViewLayout: UICollectionViewFlowLayout())
+        super.init(collectionViewLayout: layout)
     }
     
     override func viewDidLoad() {

@@ -29,7 +29,7 @@ final class SearchController: UICollectionViewController, UICollectionViewDelega
         let layout = UICollectionViewFlowLayout()
         layout.sectionInset = .zero
         
-        super.init(collectionViewLayout: UICollectionViewFlowLayout())
+        super.init(collectionViewLayout: layout)
     }
     
     override func viewDidLoad() {
