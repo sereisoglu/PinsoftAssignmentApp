@@ -141,7 +141,7 @@ extension SearchController {
         case .data:
             return .init(
                 width: Sizing.posterViewHalf.width,
-                height: Sizing.posterViewHalf.height + FontType.body1.value.lineHeight + FontType.body2.value.lineHeight
+                height: Sizing.posterViewHalf.height + Sizing.space5pt + FontType.body1.value.lineHeight + FontType.body2.value.lineHeight
             )
             
         case .emptyOrError,

@@ -50,22 +50,6 @@ final class Label: UILabel {
         textColor = color.value
     }
     
-    func setData(numberOfLines: Int) {
-        self.numberOfLines = numberOfLines
-    }
-    
-    func setData(alignment: NSTextAlignment) {
-        guard let paragraphStyle = attributes[.paragraphStyle] as? NSMutableParagraphStyle else {
-            return
-        }
-        
-        paragraphStyle.alignment = alignment
-        
-        attributes[.paragraphStyle] = paragraphStyle
-        
-        sizeToFit()
-    }
-    
     func setData(texts: [Text]?) {
         guard let texts = texts else {
             return
@@ -105,4 +89,3 @@ final class Label: UILabel {
         fatalError("init(coder:) has not been implemented")
     }
 }
-

@@ -166,8 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				4A37112F26D3C30200B1C687 /* Assets.xcassets */,
-				4A37113126D3C30200B1C687 /* LaunchScreen.storyboard */,
 				4A85816326D4014F001F1785 /* Colors.xcassets */,
+				4A37113126D3C30200B1C687 /* LaunchScreen.storyboard */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -178,8 +178,8 @@
 				4A37116226D3F70200B1C687 /* Sizing.swift */,
 				4A85815B26D3FB15001F1785 /* AttributedStringUtility.swift */,
 				4A85817726D440A4001F1785 /* AlertUtility.swift */,
-				4A85817926D44167001F1785 /* extensions */,
 				4A85818826D447E6001F1785 /* EstimatedSizeUtility.swift */,
+				4A85817926D44167001F1785 /* extensions */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
