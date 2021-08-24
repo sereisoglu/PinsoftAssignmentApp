@@ -10,10 +10,6 @@
 
 MVVM architecture was used in this project.
 
-## Auto Layout
-
-NSLayoutConstraint and LBTATools are used for AutoLayout.
-
 ## Compatibility
 
 Requires iOS 11.0 or later. Compatible with iPhone.
