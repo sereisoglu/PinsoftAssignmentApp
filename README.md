@@ -1,6 +1,6 @@
 <img src="images/devices.png" width="100%" />
 
-# PAA
+# Pinsoft Assignment App
 
 > This project was made within "Pinsoft iOS Assignment".
 
@@ -13,6 +13,10 @@ MVVM architecture was used in this project.
 ## Compatibility
 
 Requires iOS 11.0 or later. Compatible with iPhone.
+
+## API
+
+- **[OMDbAPI](http://www.omdbapi.com)**
 
 ## Third Party Libraries
 
